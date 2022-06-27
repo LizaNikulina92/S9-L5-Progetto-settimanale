@@ -142,7 +142,7 @@ function createSmartpgone() {
             } else if (inputNumber.value === '404') {
                 if (user.min === 0 && user.sec === 0) {
                     pCredito.innerText = `Il credito aggiornato di ${user.id} 
-                    è di ${(user.carica).toFixed(2)}€`;
+                    è di ${(user.carica - 1).toFixed(2)}€`;
                     alert(`Il tuo credito è di ${(user.carica - 1).toFixed(2)}€`);
                     arrDigit.length = 0;
                     inputNumber.value = arrDigit.splice(0, arrDigit.length);
