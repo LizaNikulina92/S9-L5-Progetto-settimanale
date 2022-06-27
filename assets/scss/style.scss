@@ -1,0 +1,95 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+body {
+  user-select: none;
+}
+
+.creditoRes {
+  font-size: 0.8rem;
+}
+#smartphone {
+  div.col {
+    div.d-flex:first-child {
+      border: 1px solid #b4b4b4;
+      border-radius: 0.3em;
+      padding: 0.1em;
+    }
+    .schermoTastierino,
+    .schermoRegistro,
+    .schermoChiamata {
+      width: 17em;
+      height: 29em;
+      border-radius: 1em;
+      background-color: #000;
+      margin: 3em auto;
+      position: relative;
+      input {
+        color: #fff;
+        text-align: center;
+        background-color: #000;
+        border: none;
+        font-size: 1.2rem;
+      }
+      .numTast {
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
+.bi-telephone-fill {
+  color: $success;
+  font-size: 1.5em;
+}
+.bi-telephone-x-fill {
+  color: $danger;
+  font-size: 1.5em;
+}
+.bi-trash-fill,
+.bi-backspace-fill {
+  color: $secondary;
+}
+.bi-trash {
+  color: $danger;
+}
+
+.schermoRegistro {
+  display: none;
+  overflow: auto;
+  .btmAlign a:first-child {
+    color: $secondary;
+    text-decoration: none;
+  }
+}
+.schermoTastierino {
+  display: block;
+  .btmAlign a:last-child {
+    color: $secondary;
+    text-decoration: none;
+  }
+}
+.schermoChiamata {
+  display: none;
+  p {
+    font-size: 2rem;
+    text-align: center;
+  }
+}
+.btmAlign {
+  text-align: center;
+  position: absolute;
+  bottom: 1.5em;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0.8rem;
+}
+.lista {
+  overflow: auto;
+  p {
+    display: inline;
+  }
+  i {
+    font-size: 0.7rem;
+    margin-right: 1em;
+  }
+}
